@@ -1,6 +1,6 @@
 # vault-rds-mysql
 
-This repository contains scripts that will enable the database secrets engine on Vault.
+This repository contains a script that will enable and configure the database secrets engine on Vault so it can create dynamic RDS credentials.
 
 ## Run Script
 
@@ -21,3 +21,6 @@ $ vault read database/creds/my-role
 ```
 $ vault lease revoke LEASE_ID
 ```
+## Questions?
+
+Open an issue.
